@@ -1,0 +1,55 @@
+Relics ?
+Ironclad gains relic Anchor
+Relics ?
+Ironclad gains relic Burning Blood
+Relics ?
+Ironclad gains relic Nunchaku
+Ironclad gains relic Shuriken
+Ironclad gains relic Vajra
+Relics ?
+Ironclad gains relic Anchor
+Ironclad gains relic Burning Blood
+Ironclad gains relic Nunchaku
+Ironclad gains relic Vajra
+Relics ?
+Potions ?
+Ironclad gains potion Fire Potion
+Potions ?
+Ironclad gains potion Fire Potion
+Potions ?
+Ironclad gains potion Strength Potion
+Potions ?
+Ironclad gains potion Ancient Potion
+Ironclad gains potion Energy Potion
+Ironclad gains potion Explosive Potion
+Potions ?
+Ironclad discards potion Strength Potion
+Potions ?
+Ironclad discards potion Elixir
+Ironclad discards potion Strength Potion
+Potions ?
+Ironclad gains potion Ancient Potion
+Potions ?
+Ironclad gains potion Explosive Potion
+Potions ?
+Ironclad discards potion Ancient Potion
+Potions ?
+Ironclad discards potion Fire Potion
+Potions ?
+Ironclad discards potion Fire Potion
+Potions ?
+Ironclad gains potion Fire Potion
+Ironclad gains potion Fire Potion
+Ironclad gains potion Fire Potion
+Potions ?
+Ironclad gains potion Ancient Potion
+Potions ?
+Ironclad discards potion Fire Potion
+Potions ?
+Ironclad discards potion Fire Potion
+Potions ?
+Ironclad discards potion Fire Potion
+Potions ?
+Ironclad discards potion Fire Potion
+Relics ?
+Exit

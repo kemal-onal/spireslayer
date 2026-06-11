@@ -1,0 +1,83 @@
+ironclad gains 5 gold
+IRONCLAD gains 5 gold
+IronClad gains 5 gold
+Ironclad Gains 5 gold
+Ironclad GAINS 5 gold
+Ironclad Takes 5 damage
+Ironclad Heals 5 hp
+Ironclad Enters Monster room
+Ironclad Fights Gremlin Nob
+Ironclad gains 5 gold
+Total gold ?
+Ironclad gains 10 Gold
+Ironclad gains 10 Max hp
+Ironclad gains 10 max Hp
+Ironclad enters Monster Room
+Ironclad gains Card Bash
+Ironclad gains Relic Anchor
+Ironclad gains Potion Fire Potion
+Ironclad gains 5 gold gold
+Ironclad gains 0 gold
+Ironclad heals 0 hp
+Ironclad takes 0 damage
+Ironclad gains 0 max hp
+Ironclad gains 01 gold
+Ironclad gains 007 gold
+Ironclad heals 010 hp
+Ironclad takes 05 damage
+Ironclad gains 099 max hp
+Ironclad gains -5 gold
+Ironclad heals -10 hp
+Ironclad takes -3 damage
+Ironclad gains +5 gold
+Ironclad gains +1 max hp
+Ironclad enters Dungeon room
+Ironclad enters Castle room
+Ironclad enters monster room
+Ironclad enters elite room
+Ironclad enters BOSS room
+Ironclad enters Room room
+Ironclad enters room
+Ironclad gains
+Ironclad gains card
+Ironclad gains relic
+Ironclad gains potion
+Ironclad fights
+Ironclad heals
+Ironclad takes
+Ironclad enters
+Ironclad
+Ironclad gains 5 gold extra
+Ironclad takes 5 damage extra
+Ironclad heals 5 hp extra
+Ironclad enters Monster room extra
+Ironclad gains 5 max hp extra
+Total gold
+Floor
+Where
+Health
+Deck
+Relics
+Potions
+Exhausts
+Deck size
+Total gold?
+Floor?
+Where?
+Health?
+Deck?
+Relics?
+Exhausts?
+Deck size?
+Exit now
+EXIT
+exit
+Exit Exit
+Total gold ?
+Floor ?
+Where ?
+Health ?
+Deck ?
+Relics ?
+Potions ?
+Exit

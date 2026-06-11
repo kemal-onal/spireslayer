@@ -1,0 +1,51 @@
+Deck ?
+Relics ?
+Potions ?
+Deck size ?
+Ironclad gains card Wild Strike
+Ironclad gains card Bash
+Ironclad gains card Thunderclap
+Ironclad gains card Anger
+Ironclad gains card Whirlwind
+Deck ?
+Deck size ?
+Ironclad gains card Body Slam
+Ironclad gains card Heavy Blade
+Deck ?
+Deck size ?
+Ironclad gains card Bash
+Ironclad upgrades card Bash
+Deck ?
+Deck size ?
+Ironclad marks card Bash as exhaust
+Deck ?
+Ironclad removes card Wild Strike
+Ironclad removes card Thunderclap
+Deck ?
+Deck size ?
+Ironclad removes card Bash
+Ironclad removes upgraded card Bash
+Deck ?
+Deck size ?
+Ironclad removes card Anger
+Ironclad removes card Body Slam
+Ironclad removes card Heavy Blade
+Ironclad removes card Whirlwind
+Deck ?
+Deck size ?
+Ironclad gains relic Whetstone
+Ironclad gains relic Anchor
+Ironclad gains relic Vajra
+Ironclad gains relic Bronze Scales
+Ironclad gains relic Bag of Marbles
+Relics ?
+Ironclad gains potion Strength Potion
+Ironclad gains potion Ancient Potion
+Ironclad gains potion Strength Potion
+Potions ?
+Ironclad discards potion Strength Potion
+Ironclad discards potion Strength Potion
+Potions ?
+Ironclad discards potion Ancient Potion
+Potions ?
+Exit

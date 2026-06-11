@@ -1,0 +1,72 @@
+Deck ?
+Total card Bash ?
+Total upgraded card Bash ?
+Ironclad gains card Bash
+Total card Bash ?
+Total upgraded card Bash ?
+Deck size ?
+Ironclad gains card Bash
+Total card Bash ?
+Total upgraded card Bash ?
+Ironclad gains card Bash
+Total card Bash ?
+Total upgraded card Bash ?
+Deck ?
+Deck size ?
+Ironclad upgrades card Bash
+Total card Bash ?
+Total upgraded card Bash ?
+Deck ?
+Ironclad upgrades card Bash
+Total card Bash ?
+Total upgraded card Bash ?
+Deck ?
+Ironclad upgrades card Bash
+Total card Bash ?
+Total upgraded card Bash ?
+Deck ?
+Deck size ?
+Ironclad upgrades card Bash
+Total card Bash ?
+Total upgraded card Bash ?
+Ironclad removes upgraded card Bash
+Total card Bash ?
+Total upgraded card Bash ?
+Ironclad removes upgraded card Bash
+Total card Bash ?
+Total upgraded card Bash ?
+Ironclad removes upgraded card Bash
+Total card Bash ?
+Total upgraded card Bash ?
+Deck ?
+Deck size ?
+Ironclad removes card Bash
+Ironclad removes upgraded card Bash
+Ironclad upgrades card Bash
+Ironclad gains card Strike
+Ironclad gains card Strike
+Ironclad upgrades card Strike
+Total card Strike ?
+Total upgraded card Strike ?
+Deck ?
+Ironclad removes card Strike
+Total card Strike ?
+Total upgraded card Strike ?
+Deck ?
+Ironclad removes card Strike
+Ironclad removes upgraded card Strike
+Total card Strike ?
+Deck ?
+Ironclad gains card Defend
+Ironclad gains card Bash
+Ironclad gains card Defend
+Total card Defend ?
+Total card Bash ?
+Total upgraded card Defend ?
+Deck ?
+Deck size ?
+Ironclad upgrades card Defend
+Deck ?
+Total card Defend ?
+Total upgraded card Defend ?
+Exit

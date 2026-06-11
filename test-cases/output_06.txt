@@ -1,0 +1,45 @@
+» Card added: Bash
+» Card added: Bash
+» Card added: Strike
+» 2 Bash, 1 Strike
+» Card marked as exhaust: Bash
+» 2 Bash*, 1 Strike
+» Bash
+» Card already exhausts: Bash
+» Bash
+» Card marked as exhaust: Strike
+» 2 Bash*, 1 Strike*
+» Bash, Strike
+» Card upgraded: Bash
+» 1 Bash*, 1 Bash+*, 1 Strike*
+» Card upgraded: Strike
+» 1 Bash*, 1 Bash+*, 1 Strike+*
+» Card removed: Bash
+» 1 Bash+*, 1 Strike+*
+» Bash, Strike
+» Upgraded card removed: Bash
+» 1 Strike+*
+» Bash, Strike
+» Upgraded card removed: Strike
+» None
+» Bash, Strike
+» Card added: Bash
+» 1 Bash*
+» Card added: Strike
+» 1 Bash*, 1 Strike*
+» Card added: Bash
+» 2 Bash*, 1 Strike*
+» Card upgraded: Bash
+» 1 Bash*, 1 Bash+*, 1 Strike*
+» Card marked as exhaust: Offering
+» Bash, Offering, Strike
+» Card added: Offering
+» 1 Bash*, 1 Bash+*, 1 Offering*, 1 Strike*
+» Card added: Offering
+» Card upgraded: Offering
+» 1 Bash*, 1 Bash+*, 1 Offering*, 1 Offering+*, 1 Strike*
+» Card already exhausts: Bash
+» Card already exhausts: Strike
+» Card already exhausts: Offering
+» Bash, Offering, Strike
+» 

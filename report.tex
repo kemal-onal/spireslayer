@@ -1,0 +1,172 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.6em}
+
+% C Code Style
+\lstdefinestyle{CStyle}{
+    language=C,
+    basicstyle=\ttfamily\footnotesize,
+    keywordstyle=\color{blue},
+    commentstyle=\color{green!40!black},
+    stringstyle=\color{red!70!black},
+    numbers=left,
+    numberstyle=\tiny,
+    stepnumber=1,
+    breaklines=true,
+    frame=single
+}
+
+\title{Assignment 1 Report: \texttt{spireslayer}\\
+\large CMPE 230 Systems Programming -- Spring 2026}
+
+\author{
+    Kemal Önal
+}
+
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Project Overview}
+
+The \texttt{spireslayer} project contains a command-line interpreter which is written in C. It simulates the state management of a roguelike game by taking terminal inputs. The main functionalities of the program are reading string inputs, tokenizing and parsing the inputs according to the strict grammar, and executing the corresponding commands to keep a persistent game state. 
+
+The persistent state is completely kept in a single \texttt{GameState} struct. This struct holds int variables for attributes such as gold, current HP, max HP and the floor number. It also has dynamic arrays to track the player's deck, relics, potions and the combat codex (which stores information about Enemies). The main design priorities were input parsing and memory management, while making sure that no trailing characters besides spaces remain still after parsing and that the program scales efficiently/correctly using dynamic memory allocation.
+
+\section{Interpreter Design}
+
+\subsection{Input Handling and Parsing}
+
+Input handling is done by using the \texttt{fgets} function with a 1024-byte buffer. The input is cleared by the \texttt{chomp\_newline} function to remove characters such as '\textbackslash n' at the end and the \texttt{trim\_line} function to delete the whitespaces at the end of the line.
+
+The parsing is handled by the \texttt{Parser} struct. This struct contains a \texttt{char *cursor} that iterates over the input string in place. Instead of using \texttt{strtok}, the parsing functions (\texttt{parse\_keyword}, \texttt{parse\_pos\_int}, \texttt{parse\_name}) compare the string at the current cursor position and increase the cursor forward by the length of the matched word. This is done with if/else if statements that cover every single strict grammar of the project. After a valid match, we check the end of the string to validate there is no extra words that violate the grammar rules. We verify that by the \texttt{skipspaces call} and \texttt{*(p.cursor) == '\textbackslash0'} after matching.
+
+\subsection{State Representation}
+
+The \texttt{GameState} struct is used to keep track of the states during the workflow. Integer attributes such as gold, max HP or the constant length variable current room are kept basically as int or char[length] attributes of the GameState. For items with a decisive upper limit, such as potion belt (maximum of 3), a fixed 2D char array is used. For unbounded structures, dynamic arrays are used:
+\begin{itemize}[leftmargin=1.5em]
+    \item \textbf{Deck:} A dynamically allocated array of \texttt{Card} structs. Each struct has attributes name, base\textunderscore count, upgraded\textunderscore count, is\textunderscore exhaust, simplifying O(N) lookups. Instead of a distinct exhausts list, exhausts semantics are stored in the deck even with a base and upgraded count of 0 when entered without prior knowledge of the card.
+    \item \textbf{Enemies and Codex:} Represented as an array of \texttt{Enemy} structs which contains their own dynamically allocated array of \texttt{Weakness} structs. Therefore cascading memory reallocations are used in learn\textunderscore type\textunderscore effective commands.
+\end{itemize}
+
+\subsection{Command Execution Flow}
+A simple demonstration for a command to show the workflow of the implementation is as follows. Consider the command: \texttt{Ironclad learns card [name] is effective against [enemy]}.
+\begin{enumerate}[leftmargin=1.5em]
+    \item The \texttt{execute\_line} function sequentially matches tokens like "Ironclad", "learns", and "card" using the \texttt{parse\_keyword} function.
+    \item \texttt{parse\_name} extracts the item and enemy names.
+    \item We verify that the end of line doesn't have any extra tokens (Actually in this case the command ends with a name so it recognizes every token with a single space in between. The \texttt{parse\_name} terminates after either '\textbackslash 0' or multiple whitespaces and then proceeds or prints INVALID for the case of an extra word after multiple spaces).
+    \item \texttt{learn\_card\_effective()} is called to scan the enemy array.
+    \item If the enemy or weakness is new, the dynamic array is resized using (multiple) \texttt{reallocs} if necessary, and the entry is added.
+\end{enumerate}
+
+\section{Implementation Details}
+
+One of the major implementation challenges was to correctly sort the outputs for queries (Deck ?, Relics ? etc.). The assignment specifies strict lexicographic sorting using ASCII values. We used the standard C library function \texttt{qsort} with comparator functions we implemented. We defined a string comparator, a Card comparator, a Weakness comparator. String comparator was used in both Card and Weakness comparator to compare their names and the functions were implemented with void pointer arguments due to the qsort usage. The tie-breaking rule, base vs upgraded card, was implemented in the deck\_query function.
+
+\subsection{Representative Code Snippet}
+
+The following snippet from \texttt{main.c} demonstrates how multi-word names of enemies, cards, relics and potions are tokenized and parsed while enforcing reserved keyword constraints:
+
+\begin{lstlisting}[style=CStyle]
+static int parse_name(Parser *p, char *name){
+    skip_spaces(p);
+    int word_count = 0;
+    name[0] = '\0';
+    while(*(p->cursor) != '\0'){
+        char *word = p->cursor;
+        int length = 0;
+        while(word[length] != ' ' && word[length] != '\0'){
+            length++;
+        }
+        if(length == 0) break;
+        if(!is_only_letters(word, length)) break;
+        if(is_reserved_keyword(word, length)) break;
+        
+        if(word_count > 0) strcat(name, " ");
+        strncat(name, word, length);
+        word_count++;
+        p->cursor += length;
+        
+        if(*(p->cursor) == ' '){
+            if(*(p->cursor + 1) == ' ') break;
+            p->cursor++;
+        }
+    }
+    return (word_count > 0) ? 1 : 0;
+}
+\end{lstlisting}
+
+This function is very critical because it manually advances the pointer to ensure strict grammar matching with the single-space rule and stops if it encounters double spaces or reserved keywords. And if a multispace is used in between subnames, the function terminates after the first multiple space and the remaining words cause the rest of the parser to print INVALID.
+
+\section{Testing and Validation}
+
+\subsection{Testing Strategy}
+
+The program was verified by manual interactive testing and provided grader/checker. Compiler warnings (\texttt{-Wall -Wextra}) were strictly monitored to ensure pointer safety and robust error handling as it was given in the Makefile.
+
+\subsection{Sample Interaction}
+
+\begin{verbatim}
+>> Ironclad gains card Bash
+Card added: Bash
+>> Ironclad marks card Bash as exhaust
+Card marked as exhaust: Bash
+>> Deck ?
+1 Bash*
+>> Ironclad upgrades card Bash
+Card upgraded: Bash
+>> Deck ?
+1 Bash+*
+\end{verbatim}
+
+\subsection{Edge Cases}
+
+\begin{itemize}[leftmargin=1.5em]
+    \item \textbf{Trailing Tokens:} \texttt{Ironclad gains 5 gold extra} correctly triggers \texttt{INVALID}.
+    \item \textbf{Leading Zeros:} \texttt{Ironclad gains 05 gold} is rejected by the integer parser.
+    \item \textbf{Duplicate Relics:} Gaining an existing relic results in \texttt{Already has relic} without duplicating the item.
+    \item \textbf{Combat with Unknowns:} Fighting an enemy without any codex data results in a fleeing (defeat penalty) as intended.
+    
+\end{itemize}
+
+\section{Discussion of Course Concepts}
+
+\subsection{Data Representation and Memory Organization}
+
+The state is organized within a single \texttt{GameState} struct to avoid global variables. By using pointers to this struct in almost all functions, we make sure a clean organization where each function takes a pointer argument and changes the content of the memory that pointer points to.
+
+\subsection{Strings, Arrays, and Pointers}
+
+Pointers are the backbone of our parser. The \texttt{char *cursor} logic (instead of the strtok) allows for fast, in-place evaluation of the input buffer without unnecessary string copying. Pointer arithmetic is used to skip tokens and validate ASCII boundaries precisely and to change the GameState efficiently.
+
+\subsection{Memory Management Choices}
+
+We used \texttt{calloc} for initial allocations and \texttt{realloc} for dynamic scaling when needed (aka. when the allocated memory place is no longer enough to store the data). This strategy follows an amortized O(1) growth pattern. This way we ensure that the program handles large inputs without hardcoded limits and without high complexities while conserving memory on smaller runs. Of course memory was freed after it was used in the program and for structures with a constant size such as Potion Belt, a single memory allocation was sufficient without any dynamic procedures.
+
+\subsection{Robustness and Debugging}
+
+One debugging challenge we faced was managing the fixed-size potion belt. At first, consuming a potion from the second place of the belt was implemented as leaving an empty hole. This directly violated the potion\_count logic used in the implementation. Therefore, we then changed the discarding potion to handle this case and replaced the second one with the third one (i.e. $k^{th}$ one with the $(k+1)^{th}$ one for every subsequent index).
+
+\subsection{Limitations and Tradeoffs}
+
+The current design uses a 1024-byte static buffer for the line input. This fits the project description, however, a truly unbounded system would use dynamic allocation for the line buffer as well to handle even larger input strings.
+
+\section{Conclusion}
+
+The implementation provides a clear and deterministic interpreter for the \texttt{spireslayer} game. Its strength lies in the stateless parsing mechanism that ensures integrity even when facing malformed input. This design prioritizes system stability and it strictly complies with the given command grammar.
+
+\section*{AI Usage Statement}
+
+We used AI tools in this project to check the English grammar of the report. Also in the implementation, we used AI tools to help us with the specific implementation of some functions. We didn't copy-paste anything from the pdf to the AI chat nor used any code directly copy-pasted from AI, but we used AI to help better understand how to implement a project in the C language. And we used it as a tutor to better understand the pointer mechanics, memory allocation.
+
+\end{document}

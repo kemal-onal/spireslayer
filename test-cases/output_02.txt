@@ -1,0 +1,49 @@
+» 0
+» 0
+» NONE
+» 80/80
+» Gold obtained
+» 33
+» Gold obtained
+» 100
+» Gold obtained
+» 350
+» Gold obtained
+» 500
+» Entered Monster room
+» 1
+» Monster
+» Entered Elite room
+» 2
+» Elite
+» Entered Shop room
+» 3
+» Shop
+» Entered Rest room
+» 4
+» Rest
+» Entered Boss room
+» 5
+» Boss
+» Ironclad health drops to 50
+» 50/80
+» Ironclad health drops to 20
+» 20/80
+» Ironclad heals to 30
+» 30/80
+» Ironclad heals to 80
+» 80/80
+» Ironclad health drops to 0
+» 0/80
+» Max health increased to 100
+» 0/100
+» Ironclad heals to 60
+» 60/100
+» Max health increased to 150
+» 60/150
+» Ironclad heals to 150
+» 150/150
+» 500
+» 5
+» Boss
+» 

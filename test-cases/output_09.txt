@@ -1,0 +1,59 @@
+» Gold obtained
+» 300
+» Not enough gold
+» 300
+» Card added: Bash
+» 250
+» 1 Bash
+» Card added: Strike
+» 0
+» 1 Bash, 1 Strike
+» Not enough gold
+» 0
+» Gold obtained
+» 200
+» Relic obtained: Anchor
+» 160
+» Anchor
+» Not enough gold
+» 160
+» Already has relic: Anchor
+» 160
+» Potion obtained: Fire Potion
+» 145
+» Potion obtained: Strength Potion
+» 130
+» Potion obtained: Explosive Potion
+» 115
+» Potion belt is full
+» 115
+» Potion discarded: Explosive Potion
+» Not enough gold
+» 115
+» Card sold: Bash
+» 145
+» 1 Strike
+» Card not found: Bash
+» 145
+» Card added: Defend
+» Card upgraded: Defend
+» Upgraded card sold: Defend
+» 185
+» 1 Strike
+» Upgraded card not found: Defend
+» 185
+» Card not found: Defend
+» 185
+» Potion sold: Fire Potion
+» 205
+» 1 Strength Potion
+» Potion not found: Elixir
+» 205
+» Potion not found: Fire Potion
+» 205
+» Potion sold: Strength Potion
+» 230
+» None
+» 1 Strike
+» Anchor
+» 

@@ -1,0 +1,82 @@
+» Card added: Bash
+» Card added: Offering
+» Card added: Offering
+» Relic obtained: Anchor
+» Relic obtained: Burning Blood
+» 80/80
+» Codex entry created: Gremlin Nob
+» Codex entry created: Jaw Worm
+» Codex entry created: Lagavulin
+» Codex entry created: Cultist
+» Codex entry updated: Cultist
+» Card marked as exhaust: Offering
+» 1 Bash, 2 Offering*
+» Ironclad defeats Gremlin Nob
+» 1
+» 1 Bash, 2 Offering*
+» Ironclad defeats Jaw Worm
+» 1 Bash, 1 Offering*
+» 1
+» Ironclad defeats Jaw Worm
+» 1 Bash
+» 2
+» Ironclad is outmatched and flees with 65 hp remaining
+» 65/80
+» 2
+» Ironclad defeats Lagavulin
+» Anchor, Burning Blood
+» 1
+» Potion obtained: Fire Potion
+» Potion obtained: Strength Potion
+» 1 Fire Potion, 1 Strength Potion
+» Ironclad defeats Cultist
+» None
+» 1
+» Potion obtained: Fire Potion
+» Potion obtained: Fire Potion
+» Potion obtained: Fire Potion
+» 3 Fire Potion
+» Codex entry created: Fungibeast
+» Ironclad defeats Fungibeast
+» 2 Fire Potion
+» 1
+» 65/80
+» Ironclad is outmatched and flees with 50 hp remaining
+» 50/80
+» 0
+» Ironclad health drops to 0
+» 0/80
+» Ironclad is outmatched and flees with 0 hp remaining
+» 0/80
+» Gold obtained
+» 100
+» Ironclad defeats Gremlin Nob and gains 30 gold
+» 130
+» 2
+» Ironclad is outmatched and flees with 0 hp remaining
+» 130
+» 0/80
+» 0
+» 1
+» Card added: Offering
+» Card added: Offering
+» Card upgraded: Offering
+» 1 Bash, 1 Offering*, 1 Offering+*
+» Ironclad defeats Jaw Worm
+» 1 Bash, 1 Offering+*
+» 3
+» Ironclad defeats Jaw Worm
+» 1 Bash
+» 4
+» Ironclad defeats Gremlin Nob and gains 20 gold
+» 150
+» 3
+» Ironclad defeats Gremlin Nob and gains 20 gold
+» 170
+» 4
+» 1 Bash
+» Anchor, Burning Blood
+» 2 Fire Potion
+» 0/80
+» 170
+» 

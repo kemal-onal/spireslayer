@@ -1,0 +1,40 @@
+Ironclad learns card Bash is effective against Gremlin Nob
+Ironclad learns relic Anchor is effective against Gremlin Nob
+Ironclad learns potion Bash is effective against Gremlin Nob
+Ironclad learns card Bash is effective against Gremlin Nob
+Ironclad learns relic Anchor is effective against Gremlin Nob
+Ironclad learns potion Bash is effective against Gremlin Nob
+What is effective against Gremlin Nob ?
+What is effective against Unknown Enemy ?
+What is effective against Jawbone ?
+Ironclad learns card Strike is effective against Cultist
+What is effective against Cultist ?
+Ironclad learns card Defend is effective against Cultist
+What is effective against Cultist ?
+Ironclad learns relic Burning Blood is effective against Cultist
+What is effective against Cultist ?
+Ironclad learns card Strike is effective against Cultist
+Ironclad learns card Defend is effective against Cultist
+Ironclad learns relic Burning Blood is effective against Cultist
+What is effective against Cultist ?
+Ironclad learns card Bash is effective against Lagavulin
+Ironclad learns potion Bash is effective against Lagavulin
+Ironclad learns relic Bash is effective against Lagavulin
+What is effective against Lagavulin ?
+Ironclad learns card Bash is effective against Lagavulin
+Ironclad learns potion Bash is effective against Lagavulin
+Ironclad learns relic Bash is effective against Lagavulin
+What is effective against Lagavulin ?
+Ironclad gains card Bash
+Ironclad gains relic Anchor
+Ironclad removes card Bash
+What is effective against Gremlin Nob ?
+What is effective against Lagavulin ?
+Ironclad learns card Offering is effective against Gremlin Leader
+What is effective against Gremlin Leader ?
+Ironclad learns card Bash is effective against Gremlin Leader
+What is effective against Gremlin Leader ?
+Ironclad learns relic Anchor is effective against Gremlin Leader
+What is effective against Gremlin Leader ?
+What is effective against Unknown Enemy ?
+Exit

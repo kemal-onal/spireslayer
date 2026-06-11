@@ -1,0 +1,51 @@
+» None
+» None
+» None
+» 0
+» Card added: Wild Strike
+» Card added: Bash
+» Card added: Thunderclap
+» Card added: Anger
+» Card added: Whirlwind
+» 1 Anger, 1 Bash, 1 Thunderclap, 1 Whirlwind, 1 Wild Strike
+» 5
+» Card added: Body Slam
+» Card added: Heavy Blade
+» 1 Anger, 1 Bash, 1 Body Slam, 1 Heavy Blade, 1 Thunderclap, 1 Whirlwind, 1 Wild Strike
+» 7
+» Card added: Bash
+» Card upgraded: Bash
+» 1 Anger, 1 Bash, 1 Bash+, 1 Body Slam, 1 Heavy Blade, 1 Thunderclap, 1 Whirlwind, 1 Wild Strike
+» 8
+» Card marked as exhaust: Bash
+» 1 Anger, 1 Bash*, 1 Bash+*, 1 Body Slam, 1 Heavy Blade, 1 Thunderclap, 1 Whirlwind, 1 Wild Strike
+» Card removed: Wild Strike
+» Card removed: Thunderclap
+» 1 Anger, 1 Bash*, 1 Bash+*, 1 Body Slam, 1 Heavy Blade, 1 Whirlwind
+» 6
+» Card removed: Bash
+» Upgraded card removed: Bash
+» 1 Anger, 1 Body Slam, 1 Heavy Blade, 1 Whirlwind
+» 4
+» Card removed: Anger
+» Card removed: Body Slam
+» Card removed: Heavy Blade
+» Card removed: Whirlwind
+» None
+» 0
+» Relic obtained: Whetstone
+» Relic obtained: Anchor
+» Relic obtained: Vajra
+» Relic obtained: Bronze Scales
+» Relic obtained: Bag of Marbles
+» Anchor, Bag of Marbles, Bronze Scales, Vajra, Whetstone
+» Potion obtained: Strength Potion
+» Potion obtained: Ancient Potion
+» Potion obtained: Strength Potion
+» 1 Ancient Potion, 2 Strength Potion
+» Potion discarded: Strength Potion
+» Potion discarded: Strength Potion
+» 1 Ancient Potion
+» Potion discarded: Ancient Potion
+» None
+» 

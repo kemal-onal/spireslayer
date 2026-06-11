@@ -1,0 +1,45 @@
+Ironclad gains card Bash
+Ironclad gains card Bash
+Ironclad gains card Strike
+Deck ?
+Ironclad marks card Bash as exhaust
+Deck ?
+Exhausts ?
+Ironclad marks card Bash as exhaust
+Exhausts ?
+Ironclad marks card Strike as exhaust
+Deck ?
+Exhausts ?
+Ironclad upgrades card Bash
+Deck ?
+Ironclad upgrades card Strike
+Deck ?
+Ironclad removes card Bash
+Deck ?
+Exhausts ?
+Ironclad removes upgraded card Bash
+Deck ?
+Exhausts ?
+Ironclad removes upgraded card Strike
+Deck ?
+Exhausts ?
+Ironclad gains card Bash
+Deck ?
+Ironclad gains card Strike
+Deck ?
+Ironclad gains card Bash
+Deck ?
+Ironclad upgrades card Bash
+Deck ?
+Ironclad marks card Offering as exhaust
+Exhausts ?
+Ironclad gains card Offering
+Deck ?
+Ironclad gains card Offering
+Ironclad upgrades card Offering
+Deck ?
+Ironclad marks card Bash as exhaust
+Ironclad marks card Strike as exhaust
+Ironclad marks card Offering as exhaust
+Exhausts ?
+Exit

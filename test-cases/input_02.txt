@@ -1,0 +1,49 @@
+Total gold ?
+Floor ?
+Where ?
+Health ?
+Ironclad gains 33 gold
+Total gold ?
+Ironclad gains 67 gold
+Total gold ?
+Ironclad gains 250 gold
+Total gold ?
+Ironclad gains 150 gold
+Total gold ?
+Ironclad enters Monster room
+Floor ?
+Where ?
+Ironclad enters Elite room
+Floor ?
+Where ?
+Ironclad enters Shop room
+Floor ?
+Where ?
+Ironclad enters Rest room
+Floor ?
+Where ?
+Ironclad enters Boss room
+Floor ?
+Where ?
+Ironclad takes 30 damage
+Health ?
+Ironclad takes 30 damage
+Health ?
+Ironclad heals 10 hp
+Health ?
+Ironclad heals 100 hp
+Health ?
+Ironclad takes 100 damage
+Health ?
+Ironclad gains 20 max hp
+Health ?
+Ironclad heals 60 hp
+Health ?
+Ironclad gains 50 max hp
+Health ?
+Ironclad heals 200 hp
+Health ?
+Total gold ?
+Floor ?
+Where ?
+Exit

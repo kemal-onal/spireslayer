@@ -1,0 +1,82 @@
+Ironclad gains card Bash
+Ironclad gains card Offering
+Ironclad gains card Offering
+Ironclad gains relic Anchor
+Ironclad gains relic Burning Blood
+Health ?
+Ironclad learns card Bash is effective against Gremlin Nob
+Ironclad learns card Offering is effective against Jaw Worm
+Ironclad learns relic Anchor is effective against Lagavulin
+Ironclad learns potion Fire Potion is effective against Cultist
+Ironclad learns potion Strength Potion is effective against Cultist
+Ironclad marks card Offering as exhaust
+Deck ?
+Ironclad fights Gremlin Nob
+Defeated Gremlin Nob ?
+Deck ?
+Ironclad fights Jaw Worm
+Deck ?
+Defeated Jaw Worm ?
+Ironclad fights Jaw Worm
+Deck ?
+Defeated Jaw Worm ?
+Ironclad fights Jaw Worm
+Health ?
+Defeated Jaw Worm ?
+Ironclad fights Lagavulin
+Relics ?
+Defeated Lagavulin ?
+Ironclad gains potion Fire Potion
+Ironclad gains potion Strength Potion
+Potions ?
+Ironclad fights Cultist
+Potions ?
+Defeated Cultist ?
+Ironclad gains potion Fire Potion
+Ironclad gains potion Fire Potion
+Ironclad gains potion Fire Potion
+Potions ?
+Ironclad learns potion Fire Potion is effective against Fungibeast
+Ironclad fights Fungibeast
+Potions ?
+Defeated Fungibeast ?
+Health ?
+Ironclad fights Jawbone
+Health ?
+Defeated Jawbone ?
+Ironclad takes 50 damage
+Health ?
+Ironclad fights Jawbone
+Health ?
+Ironclad gains 100 gold
+Total gold ?
+Ironclad fights Gremlin Nob for 30 gold
+Total gold ?
+Defeated Gremlin Nob ?
+Ironclad fights Jawbone for 50 gold
+Total gold ?
+Health ?
+Defeated Jawbone ?
+Defeated Cultist ?
+Ironclad gains card Offering
+Ironclad gains card Offering
+Ironclad upgrades card Offering
+Deck ?
+Ironclad fights Jaw Worm
+Deck ?
+Defeated Jaw Worm ?
+Ironclad fights Jaw Worm
+Deck ?
+Defeated Jaw Worm ?
+Ironclad fights Gremlin Nob for 20 gold
+Total gold ?
+Defeated Gremlin Nob ?
+Ironclad fights Gremlin Nob for 20 gold
+Total gold ?
+Defeated Gremlin Nob ?
+Deck ?
+Relics ?
+Potions ?
+Health ?
+Total gold ?
+Exit

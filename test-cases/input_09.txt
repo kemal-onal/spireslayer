@@ -1,0 +1,59 @@
+Ironclad gains 300 gold
+Total gold ?
+Ironclad buys card Bash for 500 gold
+Total gold ?
+Ironclad buys card Bash for 50 gold
+Total gold ?
+Deck ?
+Ironclad buys card Strike for 250 gold
+Total gold ?
+Deck ?
+Ironclad buys card Defend for 1 gold
+Total gold ?
+Ironclad gains 200 gold
+Total gold ?
+Ironclad buys relic Anchor for 40 gold
+Total gold ?
+Relics ?
+Ironclad buys relic Anchor for 500 gold
+Total gold ?
+Ironclad buys relic Anchor for 20 gold
+Total gold ?
+Ironclad buys potion Fire Potion for 15 gold
+Total gold ?
+Ironclad buys potion Strength Potion for 15 gold
+Total gold ?
+Ironclad buys potion Explosive Potion for 15 gold
+Total gold ?
+Ironclad buys potion Ancient Potion for 10 gold
+Total gold ?
+Ironclad discards potion Explosive Potion
+Ironclad buys potion Ancient Potion for 500 gold
+Total gold ?
+Ironclad sells card Bash for 30 gold
+Total gold ?
+Deck ?
+Ironclad sells card Bash for 30 gold
+Total gold ?
+Ironclad gains card Defend
+Ironclad upgrades card Defend
+Ironclad sells upgraded card Defend for 40 gold
+Total gold ?
+Deck ?
+Ironclad sells upgraded card Defend for 40 gold
+Total gold ?
+Ironclad sells card Defend for 20 gold
+Total gold ?
+Ironclad sells potion Fire Potion for 20 gold
+Total gold ?
+Potions ?
+Ironclad sells potion Elixir for 10 gold
+Total gold ?
+Ironclad sells potion Fire Potion for 10 gold
+Total gold ?
+Ironclad sells potion Strength Potion for 25 gold
+Total gold ?
+Potions ?
+Deck ?
+Relics ?
+Exit

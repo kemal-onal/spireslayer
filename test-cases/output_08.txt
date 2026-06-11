@@ -1,0 +1,55 @@
+» None
+» Relic obtained: Anchor
+» Anchor
+» Relic obtained: Burning Blood
+» Anchor, Burning Blood
+» Relic obtained: Nunchaku
+» Relic obtained: Shuriken
+» Relic obtained: Vajra
+» Anchor, Burning Blood, Nunchaku, Shuriken, Vajra
+» Already has relic: Anchor
+» Already has relic: Burning Blood
+» Already has relic: Nunchaku
+» Already has relic: Vajra
+» Anchor, Burning Blood, Nunchaku, Shuriken, Vajra
+» None
+» Potion obtained: Fire Potion
+» 1 Fire Potion
+» Potion obtained: Fire Potion
+» 2 Fire Potion
+» Potion obtained: Strength Potion
+» 2 Fire Potion, 1 Strength Potion
+» Potion belt is full
+» Potion belt is full
+» Potion belt is full
+» 2 Fire Potion, 1 Strength Potion
+» Potion discarded: Strength Potion
+» 2 Fire Potion
+» Potion not found: Elixir
+» Potion not found: Strength Potion
+» 2 Fire Potion
+» Potion obtained: Ancient Potion
+» 1 Ancient Potion, 2 Fire Potion
+» Potion belt is full
+» 1 Ancient Potion, 2 Fire Potion
+» Potion discarded: Ancient Potion
+» 2 Fire Potion
+» Potion discarded: Fire Potion
+» 1 Fire Potion
+» Potion discarded: Fire Potion
+» None
+» Potion obtained: Fire Potion
+» Potion obtained: Fire Potion
+» Potion obtained: Fire Potion
+» 3 Fire Potion
+» Potion belt is full
+» 3 Fire Potion
+» Potion discarded: Fire Potion
+» 2 Fire Potion
+» Potion discarded: Fire Potion
+» 1 Fire Potion
+» Potion discarded: Fire Potion
+» None
+» Potion not found: Fire Potion
+» Anchor, Burning Blood, Nunchaku, Shuriken, Vajra
+» 

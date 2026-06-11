@@ -1,0 +1,72 @@
+» None
+» 0
+» 0
+» Card added: Bash
+» 1
+» 0
+» 1
+» Card added: Bash
+» 2
+» 0
+» Card added: Bash
+» 3
+» 0
+» 3 Bash
+» 3
+» Card upgraded: Bash
+» 3
+» 1
+» 2 Bash, 1 Bash+
+» Card upgraded: Bash
+» 3
+» 2
+» 1 Bash, 2 Bash+
+» Card upgraded: Bash
+» 3
+» 3
+» 3 Bash+
+» 3
+» Card not found: Bash
+» 3
+» 3
+» Upgraded card removed: Bash
+» 2
+» 2
+» Upgraded card removed: Bash
+» 1
+» 1
+» Upgraded card removed: Bash
+» 0
+» 0
+» None
+» 0
+» Card not found: Bash
+» Upgraded card not found: Bash
+» Card not found: Bash
+» Card added: Strike
+» Card added: Strike
+» Card upgraded: Strike
+» 2
+» 1
+» 1 Strike, 1 Strike+
+» Card removed: Strike
+» 1
+» 1
+» 1 Strike+
+» Card not found: Strike
+» Upgraded card removed: Strike
+» 0
+» None
+» Card added: Defend
+» Card added: Bash
+» Card added: Defend
+» 2
+» 1
+» 0
+» 1 Bash, 2 Defend
+» 3
+» Card upgraded: Defend
+» 1 Bash, 1 Defend, 1 Defend+
+» 2
+» 1
+» 

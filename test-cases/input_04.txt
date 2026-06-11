@@ -1,0 +1,49 @@
+Ironclad gains card Bash2
+Ironclad gains card 3rd
+Ironclad gains card Strike1
+Ironclad gains relic Anchor1
+Ironclad gains potion Fire2
+Ironclad fights Gremlin1
+Ironclad gains card Gremlin_Nob
+Ironclad gains relic Dead_Branch
+Ironclad gains potion Fire_Potion
+Ironclad fights Jaw_Worm
+Ironclad gains card Strike!
+Ironclad gains card (Bash)
+Ironclad gains relic Anchor.
+Ironclad gains potion Fire-Potion
+Ironclad gains potion Fire  Potion
+Ironclad gains card Heavy  Blade
+Ironclad gains relic Bronze  Scales
+Ironclad learns card Body  Slam is effective against Cultist
+Ironclad gains card gold
+Ironclad gains card card
+Ironclad gains card relic
+Ironclad gains card potion
+Ironclad gains card exhaust
+Ironclad gains card gains
+Ironclad gains card Total
+Ironclad gains relic card
+Ironclad gains relic for
+Ironclad gains potion heals
+Ironclad gains potion damage
+Ironclad fights for
+Ironclad gains card Bash card
+Ironclad gains card Strike relic
+Ironclad gains relic Anchor gold
+Ironclad gains card Bash
+Ironclad gains card Strike
+Ironclad gains card Body Slam
+Ironclad gains card Shrug It Off
+Ironclad gains relic Bronze Scales
+Ironclad gains relic Self Forming Clay
+Ironclad gains potion Fire Potion
+Ironclad gains potion Ghost In A Jar
+Ironclad  gains  100  gold
+Ironclad  gains  card  Defend
+Ironclad  gains  relic  Anchor
+Total gold ?
+Deck ?
+Relics ?
+Potions ?
+Exit
