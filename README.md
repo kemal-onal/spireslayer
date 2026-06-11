@@ -36,3 +36,10 @@ python3 test/grader.py ./spireslayer test-cases
 ```
 
 The bundled test cases are only smoke tests for the starter scaffold. They do not cover the full Spring 2026 assignment grammar or semantics; hidden tests should be assumed to follow the official handout exactly.
+
+Installation
+Clone the repository to your local environment:
+```bash
+git clone [https://github.com/kemal-onal/spireslayer.git](https://github.com/kemal-onal/spireslayer.git)
+cd spireslayer
+```
